@@ -1,0 +1,9 @@
+CREATE TABLE repositories(
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    owner VARCHAR NOT NULL,
+    name VARCHAR NOT NULL,
+    package VARCHAR NOT NULL,
+    location VARCHAR NOT NULL,
+    tag VARCHAR NOT NULL,
+    locked BOOLEAN NOT NULL
+)
